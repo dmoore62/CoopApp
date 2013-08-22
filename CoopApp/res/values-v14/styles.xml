@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" >
+        
+        <item name="android:textColor">#EEC900</item>
+        <item name="android:background">#000000</item>
+        <item name="android:tabWidgetStyle">@style/LightTabWidget</item>
+        <item name="android:editTextStyle">@style/LightEditText</item>
+        
+    </style>
+    
+    <style name="LightTabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:textColor">#EEC900</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    
+    <style name="LightEditText" parent="@android:style/Widget.EditText">
+        <item name ="android:textColor">#EEC900</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+</resources>

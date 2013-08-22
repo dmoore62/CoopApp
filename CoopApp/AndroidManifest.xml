@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.isaknight.danmoore.coopapp"
+    android:versionCode="1"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+	<supports-screens
+	    android:xlargeScreens="true"
+	    android:largeScreens="true"
+	    android:normalScreens="true"
+	    android:smallScreens="true"
+	/>
+    <application
+        android:icon="@drawable/ucf"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CoopAppActivity"
+            android:label="@string/title_activity_coop_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
